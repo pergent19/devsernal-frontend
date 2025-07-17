@@ -13,8 +13,8 @@
   width: 50px;
   display: flex;
   cursor: pointer;
-  border-radius: 50%;
-  background: #33691E;
+  /* border-radius: 50%;
+  background: #33691E; */
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease;
@@ -78,9 +78,9 @@
 }
 
 .header-info img {
-  height: 35px;
-  width: 35px;
-  padding: 6px;
+  height: 3rem;
+  width: 3rem;
+  padding: 10px;
   flex-shrink: 0;
   background: #fff;
   border-radius: 50%;

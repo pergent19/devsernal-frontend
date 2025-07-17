@@ -6,6 +6,8 @@ import robotChat from "../../assets/robot2.png";
 
 import ChatForm from "./ChatForm";
 import ChatMessage from "./ChatMessage";
+import DevsernalPopupButton from "../../assets/Devsernal_Msg Icon.png"
+import DevsernalChatbotLogo from "../../assets/DevsernalChatbot.png";
 
 const Chatbot = () => {
   const [chatHistory, setChatHistory] = useState([]);
@@ -33,6 +35,7 @@ const Chatbot = () => {
 
     try {
       const response = await fetch("http://localhost:3000/api/chat", headers);
+      //const response = await fetch("https://devsernal-server.onrender.com/api/chat", headers);
       const data = await response.json();
 
       if (!data || !data.reply) {
@@ -69,13 +72,14 @@ const Chatbot = () => {
 
   return (
     <div className={`container ${showChatBot ? "show-chatbot" : ""}`}>
-      {/* Chatbot Toggle Button */}
       <button
         id="chatbot-toggler"
         onClick={() => setShowChatbot((prev) => !prev)}
       >
-        <span className="material-symbols-rounded">mode_comment</span>
-        <span className="material-symbols-rounded">close</span>
+        <img
+          src={DevsernalPopupButton}
+          alt={'Chatbot popup button'}
+        />
       </button>
 
       {/* Chatbot Popup */}
@@ -83,7 +87,7 @@ const Chatbot = () => {
         {/* Header */}
         <div className="chatbot-header">
           <div className="header-info">
-            <img src={robot} alt="" />
+            <img src={DevsernalChatbotLogo} alt="" />
             <h2 className="logo-text">Devsernal Chatbot</h2>
           </div>
           <button
@@ -97,7 +101,7 @@ const Chatbot = () => {
         {/* Body */}
         <div ref={chatBodyRef} className="chat-body">
           <div className="message bot-message">
-            <img src={robotChat} alt="robot" />
+            <img src={DevsernalChatbotLogo} alt="robot" />
             <p className="message-text">
               Hi! I'm Devsernal AI BOT. <br />
               Need help picking the best tech stack for your project? Ask away!

@@ -3,7 +3,7 @@ import HeroSection from '../components/home/HeroSection'
 
 function Home() {
   return (
-    <div className="h-[100vh] bg-white dark:bg-black flex flex-col justify-center items-center">
+    <div className="h-[90vh] flex flex-col justify-center items-center">
       <HeroSection />
     </div>
   )
