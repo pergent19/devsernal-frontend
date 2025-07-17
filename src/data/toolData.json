@@ -1,0 +1,69 @@
+{
+  "Frontend Frameworks": [
+    { "name": "React", "description": "A JavaScript library for building user interfaces.", "link": "https://reactjs.org" },
+    { "name": "Vue", "description": "A progressive framework for building user interfaces.", "link": "https://vuejs.org" },
+    { "name": "Angular", "description": "A platform for building mobile and desktop web applications.", "link": "https://angular.io" },
+    { "name": "Svelte", "description": "A compiler-based JavaScript framework that minimizes runtime overhead.", "link": "https://svelte.dev" },
+    { "name": "Solid", "description": "A declarative JavaScript UI library with fine-grained reactivity.", "link": "https://www.solidjs.com" }
+  ],
+  "Backend Frameworks": [
+    { "name": "Node.js", "description": "A JavaScript runtime built on Chrome's V8 engine.", "link": "https://nodejs.org" },
+    { "name": "Django", "description": "A high-level Python web framework.", "link": "https://www.djangoproject.com" },
+    { "name": "Spring Boot", "description": "A framework for building Java-based applications.", "link": "https://spring.io/projects/spring-boot" },
+    { "name": "Express.js", "description": "A minimal and flexible Node.js web application framework.", "link": "https://expressjs.com" },
+    { "name": "Ruby on Rails", "description": "A full-stack web application framework for Ruby.", "link": "https://rubyonrails.org" }
+  ],
+  "CSS Frameworks": [
+    { "name": "Tailwind CSS", "description": "A utility-first CSS framework for rapid UI development.", "link": "https://tailwindcss.com" },
+    { "name": "Bootstrap", "description": "A responsive CSS framework with components.", "link": "https://getbootstrap.com" },
+    { "name": "Bulma", "description": "A modern CSS framework based on Flexbox.", "link": "https://bulma.io" },
+    { "name": "Materialize", "description": "A responsive front-end framework based on Material Design.", "link": "https://materializecss.com" }
+  ],
+  "Testing": [
+    { "name": "Jest", "description": "A JavaScript testing framework maintained by Meta.", "link": "https://jestjs.io" },
+    { "name": "Mocha", "description": "A flexible testing framework for Node.js.", "link": "https://mochajs.org" },
+    { "name": "Cypress", "description": "An end-to-end testing framework for web apps.", "link": "https://www.cypress.io" },
+    { "name": "Playwright", "description": "Automated browser testing from Microsoft.", "link": "https://playwright.dev" }
+  ],
+  "DevOps": [
+    { "name": "Docker", "description": "A platform for containerizing applications.", "link": "https://www.docker.com" },
+    { "name": "Kubernetes", "description": "A container orchestration system.", "link": "https://kubernetes.io" },
+    { "name": "Jenkins", "description": "An automation server for continuous integration.", "link": "https://www.jenkins.io" },
+    { "name": "GitHub Actions", "description": "CI/CD automation directly from GitHub.", "link": "https://github.com/features/actions" },
+    { "name": "CircleCI", "description": "CI/CD platform for high-performance teams.", "link": "https://circleci.com" }
+  ],
+  "Documentation": [
+    { "name": "Docusaurus", "description": "A documentation site generator from Meta.", "link": "https://docusaurus.io" },
+    { "name": "MkDocs", "description": "A Python-based static site generator for docs.", "link": "https://www.mkdocs.org" },
+    { "name": "Swagger", "description": "Tools to document and test REST APIs.", "link": "https://swagger.io" },
+    { "name": "Postman", "description": "API client used to test and document APIs.", "link": "https://www.postman.com" }
+  ],
+  "Authentication": [
+    { "name": "Auth0", "description": "Authentication and authorization as a service.", "link": "https://auth0.com" },
+    { "name": "Firebase Auth", "description": "Authentication service from Firebase.", "link": "https://firebase.google.com/docs/auth" },
+    { "name": "Passport.js", "description": "Middleware for authentication in Node.js.", "link": "http://www.passportjs.org" }
+  ],
+  "Databases": [
+    { "name": "MongoDB", "description": "NoSQL database with flexible schema.", "link": "https://www.mongodb.com" },
+    { "name": "PostgreSQL", "description": "Advanced open-source SQL database.", "link": "https://www.postgresql.org" },
+    { "name": "Firebase", "description": "Cloud-hosted NoSQL database and backend.", "link": "https://firebase.google.com" },
+    { "name": "Supabase", "description": "Open-source Firebase alternative built on PostgreSQL.", "link": "https://supabase.com" }
+  ],
+  "Cloud Platforms": [
+    { "name": "AWS", "description": "Amazon Web Services for cloud computing.", "link": "https://aws.amazon.com" },
+    { "name": "Azure", "description": "Cloud services platform from Microsoft.", "link": "https://azure.microsoft.com" },
+    { "name": "Google Cloud", "description": "Cloud platform from Google.", "link": "https://cloud.google.com" },
+    { "name": "Vercel", "description": "Hosting for modern frontend frameworks.", "link": "https://vercel.com" },
+    { "name": "Netlify", "description": "Frontend deployment and serverless platform.", "link": "https://www.netlify.com" }
+  ],
+  "Loggers": [
+    { "name": "Winston", "description": "Multi-transport async logger for Node.js.", "link": "https://github.com/winstonjs/winston" },
+    { "name": "Log4j", "description": "Reliable logging for Java apps.", "link": "https://logging.apache.org/log4j" },
+    { "name": "Pino", "description": "A low-overhead JSON logger for Node.js.", "link": "https://getpino.io" }
+  ],
+  "APIs & API Tools": [
+    { "name": "REST", "description": "Popular architecture for web APIs.", "link": "https://restfulapi.net" },
+    { "name": "GraphQL", "description": "Query language for APIs from Meta.", "link": "https://graphql.org" },
+    { "name": "Apollo Client", "description": "GraphQL client for React and other frameworks.", "link": "https://www.apollographql.com" }
+  ]
+}

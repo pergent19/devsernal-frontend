@@ -68,7 +68,7 @@
   padding: 15px 22px;
   align-items: center;
   justify-content: space-between;
-  background: #33691E;
+  background: #48bca6;
 }
 
 .header-info {
@@ -108,7 +108,7 @@
 }
 
 .chatbot-header button:hover {
-  background: #1B5E20;
+  background: #4ed8d5;
 }
 
 /* Chat Body */
@@ -137,7 +137,7 @@
   padding: 6px;
   flex-shrink: 0;
   margin-bottom: 2px;
-  background: #33691E;
+  background: #48bca6;
   color: #fff;
   border-radius: 50%;
 }
@@ -148,13 +148,13 @@
   word-wrap: break-word;
   white-space: pre-line;
   font-size: 0.95rem;
-  background: #f1f1f1;
+  /* background: #f1f1f1; */
   border-radius: 10px;
 }
 
 
 .chat-body .bot-message .message-text {
-  background: #F6F2FF;
+  /* background: #F6F2FF; */
   border-radius: 13px;
 }
 
@@ -165,7 +165,7 @@
 
 .chat-body .user-message .message-text {
   color: #fff;
-  background: #33691E;
+  background: #48bca6;
   border-radius: 13px;
 }
 
@@ -174,21 +174,21 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: #fff;
+  /* background: #fff; */
   padding: 15px 22px 20px;
 }
 
 .chat-footer .chat-form {
   display: flex;
   align-items: center;
-  background: #fff;
+  /* background: #fff; */
   border-radius: 32px;
   outline: 1px solid #CCCCE5;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
 }
 
 .chat-footer .chat-form:focus-within {
-  outline: 2px solid #33691E;
+  outline: 2px solid #48bca6;
 }
 
 .chat-footer .message-input {
@@ -213,12 +213,12 @@
   flex-shrink: 0;
   margin-right: 6px;
   border-radius: 50%;
-  background: #33691E;
+  background: #48bca6;
   transition: 0.2s ease;
 }
 
 .chat-form button:hover {
-  background: #1B5E20;
+  background: #4ed8d5;
 }
 
 /* Show button only when input is valid */
@@ -229,4 +229,29 @@
 /* Dark mode text color */
 .dark-mode .chat-body .bot-message .message-text {
   color: black;
+}
+
+@media (max-width: 520px) {
+  #chatbot-toggler {
+    bottom: 20px;
+    right: 20px;
+  }
+  .chatbot-popup {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    border-radius: 0;
+    box-shadow: none;
+    height: 100%;
+  }
+  .chatbot-popup .chatbot-header {
+    padding: 12px 15px;
+  }
+  .chat-body {
+    height: calc(90% - 55px);
+    padding: 25px 15px;
+  }
+  .chat-footer {
+    padding: 10px 15px 15px;
+  }
 }

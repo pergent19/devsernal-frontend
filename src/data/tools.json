@@ -1,0 +1,296 @@
+[
+  {
+    "name": "React",
+    "description": "A JavaScript library for building user interfaces.",
+    "link": "https://reactjs.org",
+    "category": "Frontend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/react.svg"
+  },
+  {
+    "name": "Vue",
+    "description": "A progressive framework for building user interfaces.",
+    "link": "https://vuejs.org",
+    "category": "Frontend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/vuedotjs.svg"
+  },
+  {
+    "name": "Angular",
+    "description": "A platform for building mobile and desktop web applications.",
+    "link": "https://angular.io",
+    "category": "Frontend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/angular.svg"
+  },
+  {
+    "name": "Svelte",
+    "description": "A compiler-based JavaScript framework that minimizes runtime overhead.",
+    "link": "https://svelte.dev",
+    "category": "Frontend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/svelte.svg"
+  },
+  {
+    "name": "Next.js",
+    "description": "A React-based framework for server-side rendering and static site generation.",
+    "link": "https://nextjs.org",
+    "category": "Frontend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/nextdotjs.svg"
+  },
+  {
+    "name": "Nuxt.js",
+    "description": "An intuitive Vue framework for building modern web apps.",
+    "link": "https://nuxt.com",
+    "category": "Frontend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/nuxtdotjs.svg"
+  },
+  {
+    "name": "Node.js",
+    "description": "A JavaScript runtime built on Chrome's V8 engine.",
+    "link": "https://nodejs.org",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/nodedotjs.svg"
+  },
+  {
+    "name": "Express.js",
+    "description": "A minimal and flexible Node.js web application framework.",
+    "link": "https://expressjs.com",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/express.svg"
+  },
+  {
+    "name": "Django",
+    "description": "A high-level Python web framework.",
+    "link": "https://www.djangoproject.com",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/django.svg"
+  },
+  {
+    "name": "Spring Boot",
+    "description": "A framework for building Java-based applications.",
+    "link": "https://spring.io/projects/spring-boot",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/spring.svg"
+  },
+  {
+    "name": "FastAPI",
+    "description": "A modern, fast web framework for building APIs with Python.",
+    "link": "https://fastapi.tiangolo.com",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/fastapi.svg"
+  },
+  {
+    "name": "Tailwind CSS",
+    "description": "A utility-first CSS framework for rapid UI development.",
+    "link": "https://tailwindcss.com",
+    "category": "CSS Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/tailwindcss.svg"
+  },
+  {
+    "name": "Bootstrap",
+    "description": "A responsive CSS framework with components.",
+    "link": "https://getbootstrap.com",
+    "category": "CSS Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/bootstrap.svg"
+  },
+  {
+    "name": "Bulma",
+    "description": "A modern CSS framework based on Flexbox.",
+    "link": "https://bulma.io",
+    "category": "CSS Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/bulma.svg"
+  },
+  {
+    "name": "Foundation",
+    "description": "A responsive front-end framework by Zurb.",
+    "link": "https://get.foundation",
+    "category": "CSS Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/zurb.svg"
+  },
+  {
+    "name": "Jest",
+    "description": "A JavaScript testing framework maintained by Meta.",
+    "link": "https://jestjs.io",
+    "category": "Testing",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/jest.svg"
+  },
+  {
+    "name": "Mocha",
+    "description": "A flexible testing framework for Node.js.",
+    "link": "https://mochajs.org",
+    "category": "Testing",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/mocha.svg"
+  },
+  {
+    "name": "Cypress",
+    "description": "An end-to-end testing framework for web apps.",
+    "link": "https://www.cypress.io",
+    "category": "Testing",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/cypress.svg"
+  },
+  {
+    "name": "Playwright",
+    "description": "Automated browser testing from Microsoft.",
+    "link": "https://playwright.dev",
+    "category": "Testing",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/playwright.svg"
+  },
+  {
+    "name": "Docker",
+    "description": "A platform for containerizing applications.",
+    "link": "https://www.docker.com",
+    "category": "DevOps",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/docker.svg"
+  },
+  {
+    "name": "Kubernetes",
+    "description": "An open-source container orchestration system.",
+    "link": "https://kubernetes.io",
+    "category": "DevOps",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/kubernetes.svg"
+  },
+  {
+    "name": "Jenkins",
+    "description": "An automation server for continuous integration.",
+    "link": "https://www.jenkins.io",
+    "category": "DevOps",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/jenkins.svg"
+  },
+  {
+    "name": "GitHub Actions",
+    "description": "CI/CD automation directly from GitHub.",
+    "link": "https://github.com/features/actions",
+    "category": "DevOps",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/githubactions.svg"
+  },
+  {
+    "name": "Terraform",
+    "description": "Infrastructure as code tool for managing cloud resources.",
+    "link": "https://www.terraform.io",
+    "category": "DevOps",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/terraform.svg"
+  },
+  {
+    "name": "Docusaurus",
+    "description": "A documentation site generator from Meta.",
+    "link": "https://docusaurus.io",
+    "category": "Documentation",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/docusaurus.svg"
+  },
+  {
+    "name": "MkDocs",
+    "description": "A Python-based static site generator for docs.",
+    "link": "https://www.mkdocs.org",
+    "category": "Documentation",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/mkdocs.svg"
+  },
+  {
+    "name": "Swagger",
+    "description": "Tools to document and test REST APIs.",
+    "link": "https://swagger.io",
+    "category": "Documentation",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/swagger.svg"
+  },
+  {
+    "name": "Auth0",
+    "description": "Authentication and authorization as a service.",
+    "link": "https://auth0.com",
+    "category": "Authentication",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/auth0.svg"
+  },
+  {
+    "name": "Firebase Auth",
+    "description": "Authentication service from Firebase.",
+    "link": "https://firebase.google.com/docs/auth",
+    "category": "Authentication",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/firebase.svg"
+  },
+  {
+    "name": "Passport.js",
+    "description": "Middleware for authentication in Node.js.",
+    "link": "http://www.passportjs.org",
+    "category": "Authentication",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/passport.svg"
+  },
+  {
+    "name": "MongoDB",
+    "description": "A NoSQL document database with flexible schema.",
+    "link": "https://www.mongodb.com",
+    "category": "Databases",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/mongodb.svg"
+  },
+  {
+    "name": "PostgreSQL",
+    "description": "Advanced open-source relational database system.",
+    "link": "https://www.postgresql.org",
+    "category": "Databases",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/postgresql.svg"
+  },
+  {
+    "name": "Firebase",
+    "description": "Realtime NoSQL cloud database with backend services.",
+    "link": "https://firebase.google.com",
+    "category": "Databases",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/firebase.svg"
+  },
+  {
+    "name": "AWS",
+    "description": "Amazon Web Services for cloud computing.",
+    "link": "https://aws.amazon.com",
+    "category": "Cloud Platforms",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/amazonaws.svg"
+  },
+  {
+    "name": "Azure",
+    "description": "Cloud services platform from Microsoft.",
+    "link": "https://azure.microsoft.com",
+    "category": "Cloud Platforms",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/microsoftazure.svg"
+  },
+  {
+    "name": "Google Cloud",
+    "description": "Cloud platform from Google.",
+    "link": "https://cloud.google.com",
+    "category": "Cloud Platforms",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/googlecloud.svg"
+  },
+  {
+    "name": "Vercel",
+    "description": "Hosting and deployment for modern frontend frameworks.",
+    "link": "https://vercel.com",
+    "category": "Cloud Platforms",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/vercel.svg"
+  },
+  {
+    "name": "Winston",
+    "description": "Multi-transport async logger for Node.js.",
+    "link": "https://github.com/winstonjs/winston",
+    "category": "Loggers",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/node-dot-js.svg"
+  },
+  {
+    "name": "Log4j",
+    "description": "Reliable logging for Java applications.",
+    "link": "https://logging.apache.org/log4j",
+    "category": "Loggers",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/apache.svg"
+  },
+  {
+    "name": "GraphQL",
+    "description": "A query language for APIs developed by Meta.",
+    "link": "https://graphql.org",
+    "category": "APIs & API Tools",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/graphql.svg"
+  },
+  {
+    "name": "Apollo Client",
+    "description": "GraphQL client for React and other frameworks.",
+    "link": "https://www.apollographql.com",
+    "category": "APIs & API Tools",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/apollostack.svg"
+  },
+  {
+    "name": "RapidAPI",
+    "description": "API marketplace for discovering and connecting to APIs.",
+    "link": "https://rapidapi.com",
+    "category": "APIs & API Tools",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/rapidapi.svg"
+  }
+]
