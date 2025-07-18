@@ -16,7 +16,6 @@ const Chatbot = () => {
   const [chatHistory, setChatHistory] = useState([]);
   const [showChatBot, setShowChatbot] = useState(false);
   const chatBodyRef = useRef();
-  console.log("API URL:", import.meta.env.VITE_API_URL);
   // const [questionStep, setQuestionStep] = useState(0);
   // const [userAnswers, setUserAnswers] = useState([]);
 //   const generateBotResponse = async (userInput) => {
