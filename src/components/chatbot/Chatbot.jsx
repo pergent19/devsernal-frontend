@@ -16,7 +16,7 @@ const Chatbot = () => {
   const [chatHistory, setChatHistory] = useState([]);
   const [showChatBot, setShowChatbot] = useState(false);
   const chatBodyRef = useRef();
-
+  console.log("API URL:", import.meta.env.VITE_API_URL);
   // const [questionStep, setQuestionStep] = useState(0);
   // const [userAnswers, setUserAnswers] = useState([]);
 //   const generateBotResponse = async (userInput) => {
@@ -112,9 +112,10 @@ const Chatbot = () => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(requestBody),
     };
-
+    
     try {
-      const response = await fetch("http://localhost:3000/api/chat", headers);
+      const response = await fetch(import.meta.env.VITE_API_URL, headers);
+      
       //const response = await fetch("https://devsernal-server.onrender.com/api/chat", headers);
       const data = await response.json();
 
@@ -159,7 +160,6 @@ const Chatbot = () => {
   //     },
   //   ]);
   // }
-  console.log(chatHistory)
   }, [chatHistory]);
 
   return (
