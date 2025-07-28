@@ -42,6 +42,34 @@
     "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/nuxtdotjs.svg"
   },
   {
+    "name": "Astro",
+    "description": "A modern static site generator with zero JS by default.",
+    "link": "https://astro.build",
+    "category": "Frontend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/astro.svg"
+  },
+  {
+    "name": "Remix",
+    "description": "A full-stack web framework focused on web standards and modern UX.",
+    "link": "https://remix.run",
+    "category": "Frontend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/remix.svg"
+  },
+  {
+    "name": "Solid.js",
+    "description": "A declarative JavaScript library for building user interfaces.",
+    "link": "https://www.solidjs.com",
+    "category": "Frontend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/solid.svg"
+  },
+  {
+    "name": "Qwik",
+    "description": "Instant-loading web apps with zero hydration overhead.",
+    "link": "https://qwik.builder.io",
+    "category": "Frontend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/qwik.svg"
+  },
+  {
     "name": "Node.js",
     "description": "A JavaScript runtime built on Chrome's V8 engine.",
     "link": "https://nodejs.org",
@@ -77,6 +105,62 @@
     "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/fastapi.svg"
   },
   {
+    "name": "Flask",
+    "description": "A lightweight Python web application framework.",
+    "link": "https://flask.palletsprojects.com",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/flask.svg"
+  },
+  {
+    "name": "Ruby on Rails",
+    "description": "A server-side web application framework written in Ruby.",
+    "link": "https://rubyonrails.org",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/rubyonrails.svg"
+  },
+  {
+    "name": "Laravel",
+    "description": "A PHP web application framework with elegant syntax.",
+    "link": "https://laravel.com",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/laravel.svg"
+  },
+  {
+    "name": "ASP.NET Core",
+    "description": "A cross-platform framework for building modern applications.",
+    "link": "https://dotnet.microsoft.com/apps/aspnet",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/dotnet.svg"
+  },
+  {
+    "name": "NestJS",
+    "description": "A progressive Node.js framework for building scalable applications.",
+    "link": "https://nestjs.com",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/nestjs.svg"
+  },
+  {
+    "name": "Fastify",
+    "description": "A fast and low overhead web framework for Node.js.",
+    "link": "https://www.fastify.io",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/fastify.svg"
+  },
+  {
+    "name": "Koa.js",
+    "description": "A web framework designed by the team behind Express.",
+    "link": "https://koajs.com",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/koa.svg"
+  },
+  {
+    "name": "Hono",
+    "description": "A small, simple, and ultrafast web framework for the edges.",
+    "link": "https://hono.dev",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/hono.svg"
+  },
+  {
     "name": "Tailwind CSS",
     "description": "A utility-first CSS framework for rapid UI development.",
     "link": "https://tailwindcss.com",
@@ -105,6 +189,34 @@
     "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/zurb.svg"
   },
   {
+    "name": "Chakra UI",
+    "description": "Simple, modular and accessible component library for React.",
+    "link": "https://chakra-ui.com",
+    "category": "CSS Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/chakraui.svg"
+  },
+  {
+    "name": "Material-UI",
+    "description": "React components implementing Google's Material Design.",
+    "link": "https://mui.com",
+    "category": "CSS Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/mui.svg"
+  },
+  {
+    "name": "Ant Design",
+    "description": "Enterprise-class UI design language and components.",
+    "link": "https://ant.design",
+    "category": "CSS Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/antdesign.svg"
+  },
+  {
+    "name": "Mantine",
+    "description": "Full-featured React components library.",
+    "link": "https://mantine.dev",
+    "category": "CSS Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/mantine.svg"
+  },
+  {
     "name": "Jest",
     "description": "A JavaScript testing framework maintained by Meta.",
     "link": "https://jestjs.io",
@@ -131,6 +243,34 @@
     "link": "https://playwright.dev",
     "category": "Testing",
     "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/playwright.svg"
+  },
+  {
+    "name": "Vitest",
+    "description": "A blazing fast unit test framework powered by Vite.",
+    "link": "https://vitest.dev",
+    "category": "Testing",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/vitest.svg"
+  },
+  {
+    "name": "Testing Library",
+    "description": "Simple and complete testing utilities for React, Vue, Angular.",
+    "link": "https://testing-library.com",
+    "category": "Testing",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/testinglibrary.svg"
+  },
+  {
+    "name": "Puppeteer",
+    "description": "Node.js library for controlling headless Chrome browsers.",
+    "link": "https://pptr.dev",
+    "category": "Testing",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/puppeteer.svg"
+  },
+  {
+    "name": "Selenium",
+    "description": "Web browser automation for testing and scraping.",
+    "link": "https://selenium.dev",
+    "category": "Testing",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/selenium.svg"
   },
   {
     "name": "Docker",
@@ -168,6 +308,62 @@
     "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/terraform.svg"
   },
   {
+    "name": "Ansible",
+    "description": "Automation tool for configuration management and deployment.",
+    "link": "https://www.ansible.com",
+    "category": "DevOps",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/ansible.svg"
+  },
+  {
+    "name": "GitLab CI",
+    "description": "Built-in continuous integration and deployment.",
+    "link": "https://docs.gitlab.com/ee/ci",
+    "category": "DevOps",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/gitlab.svg"
+  },
+  {
+    "name": "CircleCI",
+    "description": "Continuous integration and deployment platform.",
+    "link": "https://circleci.com",
+    "category": "DevOps",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/circleci.svg"
+  },
+  {
+    "name": "Vagrant",
+    "description": "Tool for building and managing virtual machine environments.",
+    "link": "https://www.vagrantup.com",
+    "category": "DevOps",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/vagrant.svg"
+  },
+  {
+    "name": "Nginx",
+    "description": "High-performance web server and reverse proxy.",
+    "link": "https://nginx.org",
+    "category": "DevOps",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/nginx.svg"
+  },
+  {
+    "name": "Apache",
+    "description": "Open-source cross-platform web server software.",
+    "link": "https://httpd.apache.org",
+    "category": "DevOps",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/apache.svg"
+  },
+  {
+    "name": "Prometheus",
+    "description": "Monitoring and alerting toolkit.",
+    "link": "https://prometheus.io",
+    "category": "DevOps",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/prometheus.svg"
+  },
+  {
+    "name": "Grafana",
+    "description": "Analytics and interactive visualization web application.",
+    "link": "https://grafana.com",
+    "category": "DevOps",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/grafana.svg"
+  },
+  {
     "name": "Docusaurus",
     "description": "A documentation site generator from Meta.",
     "link": "https://docusaurus.io",
@@ -187,6 +383,27 @@
     "link": "https://swagger.io",
     "category": "Documentation",
     "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/swagger.svg"
+  },
+  {
+    "name": "GitBook",
+    "description": "Modern documentation platform for teams.",
+    "link": "https://www.gitbook.com",
+    "category": "Documentation",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/gitbook.svg"
+  },
+  {
+    "name": "Notion",
+    "description": "All-in-one workspace for notes, docs, and collaboration.",
+    "link": "https://www.notion.so",
+    "category": "Documentation",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/notion.svg"
+  },
+  {
+    "name": "Postman",
+    "description": "API development and testing platform.",
+    "link": "https://www.postman.com",
+    "category": "Documentation",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/postman.svg"
   },
   {
     "name": "Auth0",
@@ -210,6 +427,34 @@
     "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/passport.svg"
   },
   {
+    "name": "Supabase Auth",
+    "description": "Open-source authentication with row-level security.",
+    "link": "https://supabase.com/auth",
+    "category": "Authentication",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/supabase.svg"
+  },
+  {
+    "name": "Clerk",
+    "description": "Complete user management and authentication.",
+    "link": "https://clerk.com",
+    "category": "Authentication",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/clerk.svg"
+  },
+  {
+    "name": "NextAuth.js",
+    "description": "Complete authentication solution for Next.js.",
+    "link": "https://next-auth.js.org",
+    "category": "Authentication",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/nextdotjs.svg"
+  },
+  {
+    "name": "Keycloak",
+    "description": "Open-source identity and access management.",
+    "link": "https://www.keycloak.org",
+    "category": "Authentication",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/keycloak.svg"
+  },
+  {
     "name": "MongoDB",
     "description": "A NoSQL document database with flexible schema.",
     "link": "https://www.mongodb.com",
@@ -229,6 +474,62 @@
     "link": "https://firebase.google.com",
     "category": "Databases",
     "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/firebase.svg"
+  },
+  {
+    "name": "MySQL",
+    "description": "Popular open-source relational database management system.",
+    "link": "https://www.mysql.com",
+    "category": "Databases",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/mysql.svg"
+  },
+  {
+    "name": "Redis",
+    "description": "In-memory data structure store for caching and real-time apps.",
+    "link": "https://redis.io",
+    "category": "Databases",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/redis.svg"
+  },
+  {
+    "name": "Supabase",
+    "description": "Open-source Firebase alternative with PostgreSQL.",
+    "link": "https://supabase.com",
+    "category": "Databases",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/supabase.svg"
+  },
+  {
+    "name": "PlanetScale",
+    "description": "Serverless MySQL platform with branching.",
+    "link": "https://planetscale.com",
+    "category": "Databases",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/planetscale.svg"
+  },
+  {
+    "name": "Prisma",
+    "description": "Next-generation ORM for Node.js and TypeScript.",
+    "link": "https://www.prisma.io",
+    "category": "Databases",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/prisma.svg"
+  },
+  {
+    "name": "SQLite",
+    "description": "Lightweight, serverless, self-contained SQL database.",
+    "link": "https://www.sqlite.org",
+    "category": "Databases",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/sqlite.svg"
+  },
+  {
+    "name": "Elasticsearch",
+    "description": "Distributed search and analytics engine.",
+    "link": "https://www.elastic.co",
+    "category": "Databases",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/elasticsearch.svg"
+  },
+  {
+    "name": "CouchDB",
+    "description": "NoSQL database that uses JSON for documents.",
+    "link": "https://couchdb.apache.org",
+    "category": "Databases",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/apachecouchdb.svg"
   },
   {
     "name": "AWS",
@@ -259,6 +560,48 @@
     "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/vercel.svg"
   },
   {
+    "name": "Netlify",
+    "description": "Platform for deploying and hosting modern web projects.",
+    "link": "https://www.netlify.com",
+    "category": "Cloud Platforms",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/netlify.svg"
+  },
+  {
+    "name": "Heroku",
+    "description": "Cloud platform for deploying and managing applications.",
+    "link": "https://www.heroku.com",
+    "category": "Cloud Platforms",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/heroku.svg"
+  },
+  {
+    "name": "Railway",
+    "description": "Infrastructure platform for deploying applications.",
+    "link": "https://railway.app",
+    "category": "Cloud Platforms",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/railway.svg"
+  },
+  {
+    "name": "DigitalOcean",
+    "description": "Cloud infrastructure provider for developers.",
+    "link": "https://www.digitalocean.com",
+    "category": "Cloud Platforms",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/digitalocean.svg"
+  },
+  {
+    "name": "Cloudflare",
+    "description": "Web performance and security company.",
+    "link": "https://www.cloudflare.com",
+    "category": "Cloud Platforms",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/cloudflare.svg"
+  },
+  {
+    "name": "Render",
+    "description": "Cloud platform for hosting web apps and services.",
+    "link": "https://render.com",
+    "category": "Cloud Platforms",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/render.svg"
+  },
+  {
     "name": "Winston",
     "description": "Multi-transport async logger for Node.js.",
     "link": "https://github.com/winstonjs/winston",
@@ -271,6 +614,20 @@
     "link": "https://logging.apache.org/log4j",
     "category": "Loggers",
     "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/apache.svg"
+  },
+  {
+    "name": "Pino",
+    "description": "Super fast, all natural JSON logger for Node.js.",
+    "link": "https://getpino.io",
+    "category": "Loggers",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/pino.svg"
+  },
+  {
+    "name": "Morgan",
+    "description": "HTTP request logger middleware for Node.js.",
+    "link": "https://github.com/expressjs/morgan",
+    "category": "Loggers",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/express.svg"
   },
   {
     "name": "GraphQL",
@@ -292,5 +649,68 @@
     "link": "https://rapidapi.com",
     "category": "APIs & API Tools",
     "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/rapidapi.svg"
+  },
+  {
+    "name": "TypeScript",
+    "description": "A typed superset of JavaScript that compiles to plain JavaScript.",
+    "link": "https://www.typescriptlang.org",
+    "category": "Frontend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/typescript.svg"
+  },
+  {
+    "name": "Rust",
+    "description": "A systems programming language focused on safety and performance.",
+    "link": "https://www.rust-lang.org",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/rust.svg"
+  },
+  {
+    "name": "Go",
+    "description": "A statically typed, compiled language designed for simplicity and scalability.",
+    "link": "https://golang.org",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/go.svg"
+  },
+  {
+    "name": "Sass",
+    "description": "A CSS preprocessor that adds power and elegance to the basic language.",
+    "link": "https://sass-lang.com",
+    "category": "CSS Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/sass.svg"
+  },
+  {
+    "name": "Vite",
+    "description": "A next-generation frontend tooling for faster development.",
+    "link": "https://vitejs.dev",
+    "category": "Frontend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/vite.svg"
+  },
+  {
+    "name": "Webpack",
+    "description": "A static module bundler for modern JavaScript applications.",
+    "link": "https://webpack.js.org",
+    "category": "DevOps",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/webpack.svg"
+  },
+  {
+    "name": "ESLint",
+    "description": "A pluggable linting utility for JavaScript and TypeScript.",
+    "link": "https://eslint.org",
+    "category": "Testing",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/eslint.svg"
+  },
+  {
+    "name": "Storybook",
+    "description": "A frontend workshop for building UI components in isolation.",
+    "link": "https://storybook.js.org",
+    "category": "Frontend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/storybook.svg"
+  },
+  {
+    "name": "Strapi",
+    "description": "An open-source headless CMS for building customizable APIs.",
+    "link": "https://strapi.io",
+    "category": "Backend Frameworks",
+    "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/strapi.svg"
   }
 ]

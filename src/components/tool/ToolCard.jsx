@@ -18,16 +18,16 @@ const ToolCard = ({ tool, onToggleFavorite }) => {
     setLiked(!liked);
 
     if (onToggleFavorite) {
-      onToggleFavorite(tool, !liked); // Inform parent
+      onToggleFavorite(tool, !liked);
     }
   };
 
   return (
-    <div className="relative p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition">
+    <div className="relative p-6 bg-gradient-to-br from-white to-gray-50 dark:from-gray-800 dark:to-gray-900 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 max-w-sm w-full">
       <button
         onClick={toggleHeart}
-        className="absolute top-4 right-4"
-        aria-label="Toggle Favorite"
+        className="absolute top-4 right-4 rounded-full p-1"
+        aria-label={liked ? `Remove ${tool.name} from favorites` : `Add ${tool.name} to favorites`}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ const ToolCard = ({ tool, onToggleFavorite }) => {
           stroke="currentColor"
           strokeWidth="1.5"
           viewBox="0 0 24 24"
-          className={`w-5 h-5 ${liked ? 'text-red-500' : 'text-gray-400'} transition`}
+          className={`w-6 h-6 ${liked ? 'text-red-500' : 'text-gray-400 dark:text-gray-500'} transition-colors duration-200 hover:text-red-400`}
         >
           <path
             strokeLinecap="round"
@@ -45,25 +45,44 @@ const ToolCard = ({ tool, onToggleFavorite }) => {
         </svg>
       </button>
 
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-4 mb-3">
         {tool.icon && (
-        <img
-          src={tool.icon || 'https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/codepen.svg'}
-          alt={`${tool.name} icon`}
-          className="w-8 h-8 object-contain dark:invert"
-          onError={(e) => (e.target.src = 'https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/codepen.svg')}
-        />
+          <img
+            src={tool.icon}
+            alt={`${tool.name} icon`}
+            className="w-10 h-10 object-contain dark:invert"
+            onError={(e) => (e.target.src = 'https://cdn.jsdelivr.net/npm/simple-icons@v13.0.0/icons/codepen.svg')}
+          />
         )}
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{tool.name}</h3>
+        <div>
+          <h3 className="text-xl font-bold text-gray-900 dark:text-white tracking-tight">{tool.name}</h3>
+          <span className="inline-block mt-1 px-2 py-1 text-xs font-medium text-gray-700 dark:text-gray-200 bg-gray-200 dark:bg-gray-700 rounded-full">
+            {tool.category}
+          </span>
+        </div>
       </div>
-      <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">{tool.description}</p>
+      <p className="text-sm text-gray-600 dark:text-gray-300 mb-4 line-clamp-3">{tool.description}</p>
       <a
         href={tool.link}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-2 inline-block text-[#4ed8d5] cursor-pointer"
+        className="inline-flex items-center text-sm font-medium text-teal-500 dark:text-teal-400 hover:text-teal-600 dark:hover:text-teal-300 transition-colors duration-200"
       >
         Learn More
+        <svg
+          className="ml-2 w-4 h-4"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M9 5l7 7-7 7"
+          />
+        </svg>
       </a>
     </div>
   );
